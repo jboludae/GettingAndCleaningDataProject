@@ -1,5 +1,5 @@
 ###Subject
-###	1..30 identifyer of the subject performing the activity
+1..30 identifyer of the subject performing the activity
 ###Activity
 	LAYING
 	SITTING
@@ -7,136 +7,136 @@
 	WALKING
 	WALKING_UPSTAIRS
 	WALKING_DOWNSTAIRS
-NOTE: from now on, all variables are normalized between -1 and 1
-TotalBodyAccMeanX
+###NOTE: from now on, all variables are normalized between -1 and 1
+###TotalBodyAccMeanX
 	-1..1 mean of measurement of total acceleration along X axis
-TotalBodyAccMeanY
+###TotalBodyAccMeanY
 	-1..1 mean of measurement of total acceleration along Y axis
-"TotalBodyAccMeanZ"
+###"TotalBodyAccMeanZ"
 	-1..1 mean of measurement of total acceleration along Z axis
-"TotalBodyAccStdX"
+###"TotalBodyAccStdX"
 	-1..1 std of measurement of total acceleration along X axis
-"TotalBodyAccStdY"
+###"TotalBodyAccStdY"
 	-1..1 std of measurement of total acceleration along Y axis
-"TotalBodyAccStdZ"
+###"TotalBodyAccStdZ"
 	-1..1 std of measurement of total acceleration along Z axis
-"TotalGravityAccMeanX"
+###"TotalGravityAccMeanX"
 	-1..1 mean of measurement of gravity acceleration along X axis
-"TotalGravityAccMeanY"
+###"TotalGravityAccMeanY"
 	-1..1 mean of measurement of gravity acceleration along Y axis
-"TotalGravityAccMeanZ"
+###"TotalGravityAccMeanZ"
 	-1..1 mean of measurement of gravity acceleration along Z axis
-"TotalGravityAccStdX"
+###"TotalGravityAccStdX"
 	-1..1 std of measurement of gravity acceleration along X axis
-"TotalGravityAccStdY"
+###"TotalGravityAccStdY"
 	-1..1 std of measurement of gravity acceleration along Y axis
-"TotalGravityAccStdZ"
+###"TotalGravityAccStdZ"
 	-1..1 std of measurement of gravity acceleration along Z axis
-"TotalBodyAccJerkMeanX"
+###"TotalBodyAccJerkMeanX"
 	-1..1 mean of measurement of acceleration jerk along X axis
-"TotalBodyAccJerkMeanY"
+###"TotalBodyAccJerkMeanY"
 	-1..1 mean of measurement of acceleration jerk along Y axis
-"TotalBodyAccJerkMeanZ"
+###"TotalBodyAccJerkMeanZ"
 	-1..1 mean of measurement of acceleration jerk along Z axis
-"TotalBodyAccJerkStdX"
+###"TotalBodyAccJerkStdX"
 	-1..1 std of measurement of acceleration jerk along X axis
-"TotalBodyAccJerkStdY"
+###"TotalBodyAccJerkStdY"
 	-1..1 std of measurement of acceleration jerk along Y axis
-"TotalBodyAccJerkStdZ"
+###"TotalBodyAccJerkStdZ"
 	-1..1 std of measurement of acceleration jerk along Z axis
-"TotalBodyGyroMeanX"
+###"TotalBodyGyroMeanX"
 	-1..1 mean of measurement of angular velocity X axis
-"TotalBodyGyroMeanY"
+###"TotalBodyGyroMeanY"
 	-1..1 mean of measurement of angular velocity Y axis
-"TotalBodyGyroMeanZ"
+###"TotalBodyGyroMeanZ"
 	-1..1 mean of measurement of angular velocity Z axis
-"TotalBodyGyroStdX"
+###"TotalBodyGyroStdX"
 	-1..1 std of measurement of angular velocity X axis
-"TotalBodyGyroStdY"
+###"TotalBodyGyroStdY"
 	-1..1 std of measurement of angular velocity Y axis
-"TotalBodyGyroStdZ"
+###"TotalBodyGyroStdZ"
 	-1..1 std of measurement of angular velocity Z axis
-"TotalBodyGyroJerkMeanX"
+###"TotalBodyGyroJerkMeanX"
 	-1..1 mean of measurement of angular jerk X axis
-"TotalBodyGyroJerkMeanY"
+###"TotalBodyGyroJerkMeanY"
 	-1..1 mean of measurement of angular jerk Y axis
-"TotalBodyGyroJerkMeanZ"
+###"TotalBodyGyroJerkMeanZ"
 	-1..1 mean of measurement of angular jerk Z axis
-"TotalBodyGyroJerkStdX"
+###"TotalBodyGyroJerkStdX"
 	-1..1 std of measurement of angular jerk X axis
-"TotalBodyGyroJerkStdY"
+###"TotalBodyGyroJerkStdY"
 	-1..1 std of measurement of angular jerk Y axis
-"TotalBodyGyroJerkStdZ"
+###"TotalBodyGyroJerkStdZ"
 	-1..1 std of measurement of angular jerk Z axis
-"TotalBodyAccMagMean"
+###"TotalBodyAccMagMean"
 	-1..1 mean of measurement of total acceleration
-"TotalBodyAccMagStd"
+###"TotalBodyAccMagStd"
 	-1..1 std of measurement of total acceleration
-"TotalGravityAccMagMean"
+###"TotalGravityAccMagMean"
 	-1..1 mean of measurement of total gravity acceleration
-"TotalGravityAccMagStd"
+###"TotalGravityAccMagStd"
 	-1..1 std of measurement of total gravity acceleration
-"TotalBodyAccJerkMagMean"
+###"TotalBodyAccJerkMagMean"
 	-1..1 mean of measurement of total  acceleration jerk
-"TotalBodyAccJerkMagStd"
+###"TotalBodyAccJerkMagStd"
 	-1..1 std of measurement of total acceleration jerk
-"TotalBodyGyroMagMean"
+###"TotalBodyGyroMagMean"
 	-1..1 mean of measurement of total angular velocity
-"TotalBodyGyroMagStd"
+###"TotalBodyGyroMagStd"
 	-1..1 std of measurement of total body angula velocity
-"TotalBodyGyroJerkMagMean"
+###"TotalBodyGyroJerkMagMean"
 	-1..1 mean of measurement of total angular jerk
-"TotalBodyGyroJerkMagStd"
+###"TotalBodyGyroJerkMagStd"
 	-1..1 std of measurement of total angular jerk
-"FrequencyBodyAccMeanX"
+###"FrequencyBodyAccMeanX"
 	-1..1 mean of measurement of frequency of body acceleration along X axis
-"FrequencyBodyAccMeanY"
+###"FrequencyBodyAccMeanY"
 	-1..1 mean of measurement of frequency of body acceleration along Y axis
-"FrequencyBodyAccMeanZ"
+###"FrequencyBodyAccMeanZ"
 	-1..1 mean of measurement of frequency of body acceleration along Z axis
-"FrequencyBodyAccStdX"
+###"FrequencyBodyAccStdX"
 	-1..1 std of measurement of frequency of body acceleration along X axis
-"FrequencyBodyAccStdY"
+###"FrequencyBodyAccStdY"
 	-1..1 std of measurement of frequency of body acceleration along Y axis
-"FrequencyBodyAccStdZ"
+###"FrequencyBodyAccStdZ"
 	-1..1 std of measurement of frequency of body acceleration along Z axis
-"FrequencyBodyAccJerkMeanX"
+###"FrequencyBodyAccJerkMeanX"
 	-1..1 mean of measurement of frequency of body acceleration jerk along X axis
-"FrequencyBodyAccJerkMeanY"
+###"FrequencyBodyAccJerkMeanY"
 	-1..1 mean of measurement of frequency of body acceleration jerk along Y axis
-"FrequencyBodyAccJerkMeanZ"
+###"FrequencyBodyAccJerkMeanZ"
 	-1..1 mean of measurement of frequency of body acceleration jerk along Z axis
-"FrequencyBodyAccJerkStdX"
+###"FrequencyBodyAccJerkStdX"
 	-1..1 std of measurement of frequency of body acceleration jerk along X axis
-"FrequencyBodyAccJerkStdY"
+###"FrequencyBodyAccJerkStdY"
 	-1..1 std of measurement of frequency of body acceleration jerk along Y axis
-"FrequencyBodyAccJerkStdZ"
+###"FrequencyBodyAccJerkStdZ"
 	-1..1 std of measurement of frequency of body acceleration jerk along Z axis
-"FrequencyBodyGyroMeanX"
+###"FrequencyBodyGyroMeanX"
 	-1..1 mean of measurement of frequency of angular velocity X axis
-"FrequencyBodyGyroMeanY"
+###"FrequencyBodyGyroMeanY"
 	-1..1 mean of measurement of frequency of angular velocity Y axis
-"FrequencyBodyGyroMeanZ"
+###"FrequencyBodyGyroMeanZ"
 	-1..1 mean of measurement of frequency of angular velocity Z axis
-"FrequencyBodyGyroStdX"
+###"FrequencyBodyGyroStdX"
 	-1..1 std of measurement of frequency of angular velocity X axis
-"FrequencyBodyGyroStdY"
+###"FrequencyBodyGyroStdY"
 	-1..1 std of measurement of frequency of angular velocity Y axis
-"FrequencyBodyGyroStdZ"
+###"FrequencyBodyGyroStdZ"
 	-1..1 std of measurement of frequency of angular velocity Z axis
-"FrequencyBodyAccMagMean"
+###"FrequencyBodyAccMagMean"
 	-1..1 mean of measurement of frequency total acceleration
-"FrequencyBodyAccMagStd"
+###"FrequencyBodyAccMagStd"
 	-1..1 std of measurement of frequency total acceleration
-"FrequencyBodyBodyAccJerkMagMean"
+###"FrequencyBodyBodyAccJerkMagMean"
 	-1..1 mean of measurement of frequency total acceleration jerk
-"FrequencyBodyBodyAccJerkMagStd"
+###"FrequencyBodyBodyAccJerkMagStd"
 	-1..1 std of measurement of frequency total acceleration jerk
-"FrequencyBodyBodyGyroMagMean"
+###"FrequencyBodyBodyGyroMagMean"
 	-1..1 mean of measurement of frequency total angular velocity
-"FrequencyBodyBodyGyroMagStd"
+###"FrequencyBodyBodyGyroMagStd"
 	-1..1 std of measurement of frequency total angular velocity
-"FrequencyBodyBodyGyroJerkMagMean"
+###"FrequencyBodyBodyGyroJerkMagMean"
 	-1..1 mean of measurement of frequency total angular velocity jerk
-"FrequencyBodyBodyGyroJerkMagStd"
+###"FrequencyBodyBodyGyroJerkMagStd"
 	-1..1 std of measurement of frequency total angular velocity jerk
