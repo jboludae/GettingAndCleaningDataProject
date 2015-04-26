@@ -1,7 +1,7 @@
 # GettingAndCleaningDataProject
 This script follows the instructions from the project step by step, from reading
 the data from, to creating the required tidy data set IN ITS WIDE FORM.
-The script start loading the only library we will use: dplyr
+The script starts loading the only library we will use: dplyr.
 It then defines a function f() that takes as inpunt a "names" vector
 and outputs a tidy version of it: no ".", as less abreviations as possible,
 etc. It also adds a flag called "select" in order to make easy to select
@@ -9,8 +9,8 @@ the variables that contain "mean()" and "std()" (step 2).
  The process works as follows:
  1. We read X_test.txt, y_test.txt, features.txt and subject_test.txt
  2. We name the columns of X_test.txt using the function we defined with
- the 560+ features as input. We now have "tidy" and descriptive names for X_test
- 3. We add columns for Subject and Activity
+ the 560+ features vector as input. We now have "tidy" and descriptive names for X_test.
+ 3. We add columns specifying Subject and Activity
  4. We repeat step 1, 2 and 3 for the train data
  5. We merge the test and train data using rbind to obtain "merged"
  6. Using the grepl function and the "select" flag created by my f() function,
