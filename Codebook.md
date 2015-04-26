@@ -1,17 +1,17 @@
-"Subject"
-	1..30 identifyer of the subject performing the activity
-"Activity"
-	LAYING
-	SITTING
-	STANDING
-	WALKING
-	WALKING_UPSTAIRS
-	WALKING_DOWNSTAIRS
-NOTE: from now on, all variables are normalized between -1 and 1
-"TotalBodyAccMeanX"
-	-1..1 mean of measurement of total acceleration along X axis
-"TotalBodyAccMeanY"
-	-1..1 mean of measurement of total acceleration along Y axis
+*"Subject"
+*	1..30 identifyer of the subject performing the activity
+*"Activity"
+*	LAYING
+*	SITTING
+*	STANDING
+*	WALKING
+*	WALKING_UPSTAIRS
+*	WALKING_DOWNSTAIRS
+*NOTE: from now on, all variables are normalized between -1 and 1
+*"TotalBodyAccMeanX"
+*	-1..1 mean of measurement of total acceleration along X axis
+*"TotalBodyAccMeanY"
+*	-1..1 mean of measurement of total acceleration along Y axis
 "TotalBodyAccMeanZ"
 	-1..1 mean of measurement of total acceleration along Z axis
 "TotalBodyAccStdX"
