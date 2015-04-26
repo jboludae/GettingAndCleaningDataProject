@@ -1,6 +1,6 @@
-Subject
-	1..30 identifyer of the subject performing the activity
-Activity
+###Subject
+###	1..30 identifyer of the subject performing the activity
+###Activity
 	LAYING
 	SITTING
 	STANDING
